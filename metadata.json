@@ -1,0 +1,7 @@
+{
+  "name": "InkSpire AI Comic Creator",
+  "description": "Transform your stories into stunning comic books using AI. Analyze narrative, generate scripts, and render panels in your chosen artistic style.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
