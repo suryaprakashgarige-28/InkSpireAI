@@ -1,20 +1,37 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Inkspire – AI Comic Creator
 
-# Run and deploy your AI Studio app
+Inkspire is a web-based application that transforms written stories into comic-style visuals using artificial intelligence. It is built to help writers, students, and creators visualize their stories without requiring drawing or design skills.
 
-This contains everything you need to run your app locally.
+The app converts a user’s story into a sequence of comic panels, each representing key moments in the narrative. Every panel includes visuals and dialogue that follow a clear and readable flow, making storytelling more engaging and visual.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1VPEPafVYAxH1OY-qCpN92h-SQx5SrEbE
+Inkspire emphasizes user control. After the comic is generated, users can edit individual panels, regenerate specific scenes, modify dialogue text, or rearrange panels to improve pacing and clarity. This makes the app a collaborative creative tool rather than a one-click generator.
+
+Users can also choose from multiple visual styles such as anime, cartoon, realistic, or noir. These styles influence the look and mood of the comic while keeping the story structure consistent.
+
+The interface is intentionally simple and beginner-friendly, allowing users to focus on creativity instead of technical complexity. Inkspire can be used for storytelling practice, concept visualization, learning, or creative experimentation.
+
+---
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+**Prerequisites:** Node.js
 
-
-1. Install dependencies:
+1. Install dependencies  
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+
+2. Create a `.env.local` file and add your API key  
+   `VITE_GEMINI_API_KEY=your_api_key_here`
+
+3. Run the application  
    `npm run dev`
+
+---
+
+## Deployment
+
+The application can be deployed using platforms such as GitHub Pages, Vercel, or Netlify.  
+Make sure the environment variable is configured in the deployment platform.
+
+---
+
+**Created using Google AI Studio**
