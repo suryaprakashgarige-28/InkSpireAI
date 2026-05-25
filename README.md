@@ -9,29 +9,3 @@ Inkspire emphasizes user control. After the comic is generated, users can edit i
 Users can also choose from multiple visual styles such as anime, cartoon, realistic, or noir. These styles influence the look and mood of the comic while keeping the story structure consistent.
 
 The interface is intentionally simple and beginner-friendly, allowing users to focus on creativity instead of technical complexity. Inkspire can be used for storytelling practice, concept visualization, learning, or creative experimentation.
-
----
-
-## Run Locally
-
-**Prerequisites:** Node.js
-
-1. Install dependencies  
-   `npm install`
-
-2. Create a `.env.local` file and add your API key  
-   `VITE_GEMINI_API_KEY=your_api_key_here`
-
-3. Run the application  
-   `npm run dev`
-
----
-
-## Deployment
-
-The application can be deployed using platforms such as GitHub Pages, Vercel, or Netlify.  
-Make sure the environment variable is configured in the deployment platform.
-
----
-
-**Created using Google AI Studio**
